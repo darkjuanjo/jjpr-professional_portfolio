@@ -12,6 +12,7 @@
 }
 
 body {
+  background-color:var(--background);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -20,7 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-section {
+section, .wrapper {
   display: flex;
   flex-wrap: wrap;
 }
@@ -31,6 +32,24 @@ section {
 
 .space {
   margin: 1.5% 0;
+}
+
+.margin {
+  margin: 1.5% 10%;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.title {
+  display: inline-block;
+  text-align: right;
+  border-right:2px solid var(--darkblue);
+  margin-left: 1.5%;
+  padding-right: 10px;
+  color: var(--darkblue);
+  font-size:2em;
 }
 
 code {

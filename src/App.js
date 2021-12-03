@@ -24,7 +24,7 @@ function App() {
        {
          (() => {
            switch (currentCategory) {
-             case 'About Me': return  <Me/>
+             case 'About Me': return <Me/>
              default: return 'Pending'
            }
          })()
