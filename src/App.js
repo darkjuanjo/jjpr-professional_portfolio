@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../src/assets/components/Header';
 import Hero from '../src/assets/components/Hero';
+import Me from '../src/assets/components/Me';
 
 function App() {
   const [categories] = useState([
@@ -19,6 +20,16 @@ function App() {
      currentCategory={currentCategory}
      />
      <Hero/>
+     <main>
+       {
+         (() => {
+           switch (currentCategory) {
+             case 'About Me': return  <Me/>
+             default: return 'Pending'
+           }
+         })()
+       }
+     </main>
     </div>
   );
 }

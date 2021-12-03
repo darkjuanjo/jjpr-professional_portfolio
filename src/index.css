@@ -18,7 +18,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border: 2px solid blue;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center; 
+}
+
+.space {
+  margin: 1.5% 0;
 }
 
 code {
