@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '../src/assets/components/Header';
 import Hero from '../src/assets/components/Hero';
 import Me from '../src/assets/components/Me';
+import TheFooter from '../src/assets/components/Footer'
 
 function App() {
   const [categories] = useState([
@@ -30,6 +31,7 @@ function App() {
          })()
        }
      </main>
+     <TheFooter/>
     </div>
   );
 }

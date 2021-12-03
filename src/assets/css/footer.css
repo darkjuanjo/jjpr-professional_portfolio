@@ -1,0 +1,6 @@
+#footer {
+    background-color:var(--darkblue);
+    position:absolute;
+    width:100%;
+    bottom:0%;
+}

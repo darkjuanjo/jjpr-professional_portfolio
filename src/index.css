@@ -21,6 +21,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  position: relative;
+  height: 100%;
+}
+
+#content-container {
+  min-height: calc(100vh - 21.6px);
+}
+
+#footer--pin {
+  position: relative;
+  left:0;
+  bottom:0;
+}
+
 section, .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +65,30 @@ section, .wrapper {
   padding-right: 10px;
   color: var(--darkblue);
   font-size:2em;
+}
+
+#github {
+  background-image: url('../src/assets/images/github.png');
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  border: 0;
+}
+
+#github:hover {
+  filter:invert(1);
+}
+
+#linkedin {
+  background-image: url('../src/assets/images/linkedin.png');
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  border: 0;
+}
+
+#linkedin:hover {
+  filter:invert(1);
 }
 
 code {
