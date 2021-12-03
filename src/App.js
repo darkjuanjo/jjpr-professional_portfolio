@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Header from '../src/assets/components/Header'
+import Header from '../src/assets/components/Header';
+import Hero from '../src/assets/components/Hero';
 
 function App() {
   const [categories] = useState([
@@ -17,6 +18,7 @@ function App() {
      setCurrentCategory={setCurrentCategory}
      currentCategory={currentCategory}
      />
+     <Hero/>
     </div>
   );
 }

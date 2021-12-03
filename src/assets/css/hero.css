@@ -1,0 +1,20 @@
+#hero{
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;    
+    height:200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+} 
+
+.text-container {
+    background-color: var(--lightblue);
+    height: fit-content;
+    margin: 1.4% 1%;
+    font-size: 1.6em;
+    color: var(--darkblue);
+    font-weight: bold;
+}
+
