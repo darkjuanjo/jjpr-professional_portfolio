@@ -13,3 +13,16 @@
     margin-left: 10px;
     color: var(--darkblue);
 }
+
+@media screen and (max-width: 412px) {
+    section#me-section{
+        display:block;
+        text-align: center;
+    }
+
+    section h2#me-title.title {
+        max-width: 190px;
+        margin-bottom: 10px;
+        border: none;
+    }
+}

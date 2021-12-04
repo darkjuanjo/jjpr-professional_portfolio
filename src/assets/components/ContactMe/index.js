@@ -4,7 +4,7 @@ import '../../css/contactme.css';
 
 function ContactMe() {
     return (
-        <section className='space nowrap'>           
+        <section id='contact-section' className='space nowrap'>           
             <h2 id='contact' className='title'>Contact Me</h2>
             <form className='seperate'>
                 <label htmlFor='name'>Enter your Name:</label>

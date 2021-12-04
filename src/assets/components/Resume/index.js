@@ -53,6 +53,7 @@ function Resume() {
 
     return (
         <>
+         <p className='space margin download'>Download my resume <span><a href="https://drive.google.com/uc?export=download&id=1wBGweFGHe-jKw0lZYaeeeEQC_FO2j6gp">Resume</a></span></p>
             <section className='justify-center space'>
                 <img alt='' id='me'></img>
             </section>

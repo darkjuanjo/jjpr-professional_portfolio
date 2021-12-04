@@ -8,8 +8,8 @@ function Me() {
         <section className='justify-center space'>
             <img alt='' id='me'></img>
         </section>
-        <section className='space nowrap'>           
-            <h2 className='title'>About Me</h2>
+        <section id='me-section' className='space nowrap'>           
+            <h2 id='me-title' className='title'>About Me</h2>
             <p id='me-text'>
             Cybernetic Electronics Project Engineer with +4 years of experience in Skyworks Solutions. Inc
             Proficient in Java, C# and highly motivated to learn and improve current programming skills.

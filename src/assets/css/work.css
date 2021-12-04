@@ -65,3 +65,71 @@ div#work.space.border:nth-child(even)
     font-weight: normal;
 }
 
+@media screen and (max-width: 1024px) {
+    #work{
+        max-width: 80%;
+        margin-left:95px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #work{
+        margin-left:70px
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    #gallery {
+        width: 80%;
+        margin-left: 9%;
+    }
+
+    section#work-section{
+        display:block;
+        text-align: center;
+        flex-wrap: nowrap;    
+    }
+
+    #work-section h2.title {
+        border: none;
+    }
+
+    #work{
+        margin-left:-5px
+    }
+
+    div#work.space.border:nth-child(even) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    #project-info {
+        font-size: .8rem;
+    }
+
+    #assignment-info {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #assignment-info {
+        opacity: 70%;
+    }
+
+    #assignment-info:hover {
+        opacity: 100%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #assignment-info {
+        font-size: .65rem;
+    }
+
+    a img {
+        transform: scale(0.8);
+    }
+}
