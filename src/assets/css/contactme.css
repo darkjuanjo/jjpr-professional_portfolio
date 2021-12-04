@@ -1,0 +1,90 @@
+form {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 700px;
+    max-width: 450px;
+    height:fit-content;
+    width: 450px;
+    padding: 1% 0;
+    border-radius: 30px;
+    border: 2px solid blue;
+    background-color: var(--darkblue);
+    border: 4px solid var(--lightblue);
+    box-shadow: 20px 10px 30px;
+}
+
+form.seperate h2 {
+    position: absolute;
+    color: var(--lightblue);
+    left: 40%;
+
+}
+
+form label, form input, form textarea {
+    color: var(--lightblue);
+    margin-left: 8%;
+    width: 80%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+form label, form input {
+    border-radius: 40px;
+    height:100%;
+    font-size:1.3em;
+}
+
+form input {
+    padding: .5rem 5%;
+    color: var(--darkblue);
+    font-size:1.2em;
+}
+
+form textarea {
+    height: 200px;
+    font-size:1.5em;
+    border-radius: 10px;
+    color: var(--darkblue);
+    padding:.5rem 5%;
+}
+
+#error {
+    position:absolute;
+    font-size: .9em;
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+    height: fit-content;
+    left: 9%;
+    bottom:52px;
+
+}
+
+button {
+    color: var(--darkblue);
+    font-weight: bold;
+    width: 100px;
+    padding: 5px;
+    margin-top: 5%;
+    margin-left: 8%;
+    border-radius: 10px;
+    background-color: var(--lightblue);
+}
+
+button:hover{
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+input:hover,  textarea:hover{
+    box-shadow: 0 0 10px 5px var(--lightblue);
+}
+
+input:focus,  textarea:focus {
+    box-shadow: 0 0 10px 5px var(--lightblue);   
+}
+
+.disabled {
+    pointer-events: none;
+}

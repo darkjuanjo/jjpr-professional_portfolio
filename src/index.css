@@ -31,14 +31,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* main {
-  border:2px solid red;
-} */
-
-#content-container {
-  min-height: calc(100vh - 21.6px);
-}
-
 #footer--pin {
   position: relative;
   left:0;

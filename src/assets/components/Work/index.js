@@ -135,7 +135,10 @@ function Work() {
             <article id='gallery' className='space'>
             {projects.map((project, i) => (
                 <div id='project' className='space border' key={i}>
-                    <img src={require(`../../images/${project.id}.png`).default}></img>
+                    <img src={require(`../../images/${project.id}.png`).default}
+                        alt={project.name}
+                    >
+                    </img>
                     <div id='project-info'>
                     <ul className='block'>
                         <li id='work-li' className='nav'>
@@ -145,14 +148,20 @@ function Work() {
                         </li>
                         <li id='work-li'><p>{project.technology}</p></li>
                         </ul>
-                        <a href={project.github} target="_blank" rel="noopener noreferrer"><img id='github'></img></a>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                            <img id='github'
+                            alt=''
+                            ></img>
+                        </a>
                     </div>
                 </div>
                 ))}
                 {assignments.map((assignment, i) => (
                 <div id='work' className='space border' key={i}>
                     <div id='assignment'>
-                    <img id='assignment-img' src={require(`../../images/${assignment.id}.png`).default}></img>
+                    <img id='assignment-img' src={require(`../../images/${assignment.id}.png`).default}
+                        alt={assignment.name}
+                    ></img>
                     <div id='assignment-info'>
                         <ul className='block'>
                             <li id='work-li' className='nav'>
@@ -161,7 +170,11 @@ function Work() {
                                 </a></li>
                             <li id='work-li'><p>{assignment.technology}</p></li>
                         </ul>
-                        <a href={assignment.github} target="_blank" rel="noopener noreferrer"><img id='github'></img></a>
+                        <a href={assignment.github} target="_blank" rel="noopener noreferrer">
+                            <img id='github'
+                                    alt=''
+                            ></img>
+                        </a>
                     </div>
                     </div>
                 </div>

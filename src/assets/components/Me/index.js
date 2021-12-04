@@ -6,7 +6,7 @@ function Me() {
     return (
         <>
         <section className='justify-center space'>
-            <img id='me'></img>
+            <img alt='' id='me'></img>
         </section>
         <section className='space nowrap'>           
             <h2 className='title'>About Me</h2>
