@@ -1,6 +1,15 @@
 #footer {
     background-color:var(--darkblue);
     position:absolute;
+    padding-top: 10px;
     width:100%;
-    bottom:0%;
+    /* visibility: hidden; */
+}
+
+section#footer a{
+    margin-right: 10px;
+}
+
+li#work-li.nav h3:hover {
+    color:white;
 }

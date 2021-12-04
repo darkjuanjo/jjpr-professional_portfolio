@@ -14,7 +14,7 @@ function Header(props) {
             <nav>
                 <ul>
                     {categories.map((category) => (
-                        <li key={category} >
+                        <li className='nav' key={category} >
                             <span 
                             onClick={() => {
                                 setCurrentCategory(category);

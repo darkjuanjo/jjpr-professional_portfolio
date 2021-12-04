@@ -45,7 +45,7 @@ li {
     transition: all .2s ease-in-out;
 }
 
-li:hover{
+li.nav:hover{
     cursor:pointer;
     transform: scale(1.1);
     padding: 0 8px;
