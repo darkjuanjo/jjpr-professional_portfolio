@@ -49,7 +49,7 @@
     height: 100%;
 }
 
-div#work.border:nth-child(odd)
+div#work.space.border:nth-child(even)
 {
     margin-right: 20px;
 }

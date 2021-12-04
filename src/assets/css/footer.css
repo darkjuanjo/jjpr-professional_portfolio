@@ -3,7 +3,7 @@
     position:absolute;
     padding-top: 10px;
     width:100%;
-    /* visibility: hidden; */
+    bottom:0;
 }
 
 section#footer a{

@@ -15,8 +15,9 @@ function App() {
     document.title = currentCategory;
   }, [currentCategory]);
   return (
-    <div>
-     <Header 
+    <div id='page-container'>
+      <div id='content-wrap'>
+      <Header 
      categories={categories}
      setCurrentCategory={setCurrentCategory}
      currentCategory={currentCategory}
@@ -33,6 +34,7 @@ function App() {
          })()
        }
      </main>
+      </div>
      <TheFooter/>
     </div>
   );
