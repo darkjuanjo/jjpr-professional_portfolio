@@ -5,7 +5,7 @@ import '../../css/contactme.css';
 function ContactMe() {
     return (
         <section className='space nowrap'>           
-            <h2 className='title'>Contact Me</h2>
+            <h2 id='contact' className='title'>Contact Me</h2>
             <form className='seperate'>
                 <label htmlFor='name'>Enter your Name:</label>
                 <input type='text' name='name' placeholder='Name'></input>

@@ -14,12 +14,6 @@
     overflow:hidden;
 }
 
-#project img {
-    /* border:4px solid var(--lightblue); */
-    /* width: 100%;
-    height: 100%; */
-}
-
 #project-info {
     display: inline-flex;
     position: absolute;

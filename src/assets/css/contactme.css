@@ -18,7 +18,10 @@ form.seperate h2 {
     position: absolute;
     color: var(--lightblue);
     left: 40%;
+}
 
+section h2#contact.title {
+    max-width:150px;
 }
 
 form label, form input, form textarea {

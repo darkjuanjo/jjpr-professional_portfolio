@@ -4,6 +4,7 @@ import Hero from '../src/assets/components/Hero';
 import Me from '../src/assets/components/Me';
 import Work from '../src/assets/components/Work';
 import ContactMe from '../src/assets/components/ContactMe';
+import Resume from '../src/assets/components/Resume';
 import TheFooter from '../src/assets/components/Footer'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
              case 'About Me': return <Me/>
              case 'Work': return <Work/>
              case 'Contact Me': return <ContactMe/>
+             case 'Resume': return <Resume/>
              default: return 'Pending'
            }
          })()
