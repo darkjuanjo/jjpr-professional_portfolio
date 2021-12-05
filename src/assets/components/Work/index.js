@@ -134,7 +134,7 @@ function Work() {
             <h2 className='title space'>Work</h2>
             <article id='gallery' className='space'>
             {projects.map((project, i) => (
-                <div id='project' className='space border' key={i}>
+                <div id='project' className='space border' key={project.name}>
                     <img src={require(`../../images/${project.id}.png`).default}
                         alt={project.name}
                     >
@@ -157,7 +157,7 @@ function Work() {
                 </div>
                 ))}
                 {assignments.map((assignment, i) => (
-                <div id='work' className='space border' key={i}>
+                <div id='work' className='space border' key={assignment.name}>
                     <div id='assignment'>
                     <img id='assignment-img' src={require(`../../images/${assignment.id}.png`).default}
                         alt={assignment.name}
