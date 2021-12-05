@@ -49,16 +49,6 @@ function Work() {
             deployed: 'https://darkjuanjo.github.io/run-buddy/'
         },
         {
-            id:"1",
-            name: 'Horiseon',
-            technology: 'HTML, CSS',
-            description: 'Basic Website using only HTML and Advances CSS',
-            category: 'Front-End',
-            type: 'Challenge',
-            github: 'https://github.com/darkjuanjo/Horiseon',
-            deployed: 'https://darkjuanjo.github.io/Horiseon/'
-        },
-        {
             id:"2",
             name: 'Portfolio HTML',
             technology: 'HTML, CSS',
@@ -69,36 +59,6 @@ function Work() {
             deployed: 'https://darkjuanjo.github.io/'
         },
         {
-            id:"3",
-            name: 'Random Password Generator',
-            technology: 'HTML, CSS, Javascript',
-            description: 'Random Password generated through Javascript',
-            category: 'Front-End',
-            type: 'Challenge',
-            github: 'https://github.com/darkjuanjo/random_password_generator',
-            deployed: 'https://darkjuanjo.github.io/random_password_generator/'
-        },
-        {
-            id:"5",
-            name: 'Javascript Quiz',
-            technology: 'CSS, Javascript',
-            description: 'Quiz Minigame with DOM elements generated through Javascript',
-            category: 'Front-End',
-            type: 'Challenge',
-            github: 'https://github.com/darkjuanjo/Javascript__Fundamentals_Quiz',
-            deployed: 'https://darkjuanjo.github.io/Javascript__Fundamentals_Quiz/'
-        },
-        {
-            id:"6",
-            name: 'TaskMaster Pro Edition',
-            technology: 'HTML, CSS, Javascript',
-            description: 'Task organizer with Modal and data persistence using HTML, CSS and Javascript',
-            category: 'Front-End',
-            type: 'Module',
-            github: 'https://github.com/darkjuanjo/taskmaster-pro',
-            deployed: 'https://darkjuanjo.github.io/taskmaster-pro/'
-        },
-        {
             id:"7",
             name: 'Work Day Scheduler',
             technology: 'HTML, CSS, Javascript',
@@ -107,16 +67,6 @@ function Work() {
             type: 'Challenge',
             github: 'https://github.com/darkjuanjo/schedule-organizer',
             deployed: 'https://darkjuanjo.github.io/schedule-organizer/'
-        },
-        {
-            id:"8",
-            name: 'Git it Done',
-            technology: 'HTML, CSS, Javascript',
-            description: 'Basic Github open issue search using an API',
-            category: 'Front-End',
-            type: 'Module',
-            github: 'https://github.com/darkjuanjo/git-it-done',
-            deployed: 'https://darkjuanjo.github.io/git-it-done/'
         },
         {
             id:"9",
