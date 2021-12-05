@@ -28,7 +28,7 @@ According to the Challenge we had to code a website using our REACT and advanced
 9.  Iphone 5/SE. (320px)
 10. Galaxy Fold. (280px)
 
-For more details please see the html and css code in [Portfolio html code](https://github.com/darkjuanjo/jjpr-professional_portfolio)
+For more details please see the code in [Portfolio repository](https://github.com/darkjuanjo/jjpr-professional_portfolio)
 
 To see the webpage in brower please click the following link: <br/>
 [Juan Jose Paz Portfolio](https://jjpr-project-portfolio.herokuapp.com/)
