@@ -38,6 +38,11 @@ form label, form input {
     font-size:1.3em;
 }
 
+.input_error {
+    color:red;
+    font-weight: bold;
+}
+
 form input {
     padding: .5rem 5%;
     color: var(--darkblue);

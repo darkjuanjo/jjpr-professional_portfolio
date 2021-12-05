@@ -7,6 +7,7 @@ import ContactMe from '../src/assets/components/ContactMe';
 import Resume from '../src/assets/components/Resume';
 import TheFooter from '../src/assets/components/Footer'
 
+
 function App() {
   const [categories] = useState([
     'About Me', 'Work', 'Contact Me', 'Resume'
