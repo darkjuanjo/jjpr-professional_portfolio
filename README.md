@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Code Portfolio with REACT and Advanced CSS Code
+According to the Challenge we had to code a website using our REACT and advanced CSS  knowledge learned in module 20 including mapping throught elements to dynamically generate components and to check user form input. Website is designed to act as a porfolio that will showcase our work. Website had to be responsive to multiple screen resolutions and adjust accordingly.<br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Check List
+- [✓] Use React.
+- [✓] Add HTML semantics.
+- [✓] Structurized HTML logically.
+- [✓] Use Flexbox to organize HTML elements.
+- [✓] Check headings are in sequential order.
+- [✓] Title of webpage is concise.
+- [✓] Navigation links work.
+- [✓] Section links send to the appropiate section.
+- [✓] Most recent profile image
+- [✓] Clickable image section to open develop apps.
+- [✓] First Project images are the largest.
+- [✓] Used media query to adjust website aspect in different screen sizes.
+- [✓] Title of webpage is concise
 
-## Available Scripts
+### Compatible Screen Resolutions
+1.  Desktop/Laptop Screens.
+2.  Ipad Pro. (1024px)
+3.  Ipad. (768px)
+4.  Surface Duo. (540px)
+5.  Iphone 6/7/8 Plus. (414px)
+6.  Pixel 2/Pixel 2 XL. (411px)
+7.  Iphone 6/7/8/X. (375px)
+8.  Moto G4/ Galaxy S5. (360px)
+9.  Iphone 5/SE. (320px)
+10. Galaxy Fold. (280px)
 
-In the project directory, you can run:
+For more details please see the html and css code in [Portfolio html code](https://github.com/darkjuanjo/jjpr-professional_portfolio)
 
-### `npm start`
+To see the webpage in brower please click the following link: <br/>
+[Juan Jose Paz Portfolio](https://jjpr-project-portfolio.herokuapp.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Below are <span style="color:red">PREVIEWS</span> of 2 resolutions  with media query.<br />**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Portfolio web site preview
+![alt Portfolio web page preview](./src/assets/images/portfolio.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Portfolio mobile site preview
+![alt Portfolio web page preview](./src/assets/images/portfolio-375px.png)
