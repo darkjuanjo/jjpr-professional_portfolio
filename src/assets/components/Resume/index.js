@@ -61,8 +61,8 @@ function Resume() {
                 <h2 className='title'>{info.title}</h2>
                 <div className='content'>
                 <p>{info.me}</p>
-                {info.skills.map((skill) => (
-                    <ul>
+                {info.skills.map((skill,i) => (
+                    <ul key={i}>
                         <li id='work-li'>{skill}</li>
                     </ul>
                 ))}
@@ -71,12 +71,12 @@ function Resume() {
             <section id='resume' className='space nowrap'>       
                     <h2 className='title'>{profession.title}</h2>
                     <div className='content'>
-                    {profession.jobs.map((job) => (
+                    {profession.jobs.map((job, i) => (
                         <>
-                        <h3>{job.job_title}</h3>
+                        <h3 key={i}>{job.job_title}</h3>
                         <p>{`Employer: ${job.employer}`}</p>
-                        {job.skills.map((skill) => (
-                            <ul>
+                        {job.skills.map((skill, i) => (
+                            <ul key={i}>
                                 <li id='work-li'>{skill}</li>
                             </ul>
                         ))}
