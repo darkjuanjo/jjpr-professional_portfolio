@@ -1,12 +1,24 @@
 import React from 'react';
 import '../../css/work.css';
-
+import trivia from '../../images/10.png';
+import ticket from '../../images/11.png';
+import shop from '../../images/12.png';
+import runbuddy from '../../images/0.png';
+import horiseon from '../../images/1.png';
+import portfolio from '../../images/2.png';
+import password from '../../images/3.png';
+import quiz from '../../images/5.png';
+import taskmaster from '../../images/6.png';
+import workday from '../../images/7.png';
+import gitdone from '../../images/8.png';
+import weather from '../../images/9.png';
 
 function Work() {
 
     const projects = [
         {
             id: '10',
+            img: trivia,
             name: 'Trivia Master Deluxe',
             technology: 'HTML, CSS, Javascript',
             description: 'Basic Web Game using 2 APIs not used during the course',
@@ -17,6 +29,7 @@ function Work() {
         },
         {
             id: '11',
+            img: ticket,
             name: 'Ticket Support',
             technology: 'HTML, CSS, Javascript, Node',
             description: 'Basic Web Application with Front-End and Back-End that allows for user creation, API/User encryption and personalized dashboard.',
@@ -27,6 +40,7 @@ function Work() {
         },
         {
             id: '12',
+            img: shop,
             name: 'Shop PC Parts',
             technology: 'React, Node, Express, CSS, MongoDB',
             description: 'Fully Working Commericial PC parts webpage using MERN',
@@ -40,6 +54,7 @@ function Work() {
     const assignments = [
         {
             id:"0",
+            img:runbuddy,
             name: 'Run Buddy',
             technology: 'HTML, CSS',
             description: 'Basic Website using only HTML and Basic CSS',
@@ -51,6 +66,7 @@ function Work() {
         {
             id:"1",
             name: 'Horiseon',
+            img:horiseon,
             technology: 'HTML, CSS',
             description: 'Basic Website using only HTML and Advances CSS',
             category: 'Front-End',
@@ -60,6 +76,7 @@ function Work() {
         },
         {
             id:"2",
+            img: portfolio,
             name: 'Portfolio HTML',
             technology: 'HTML, CSS',
             description: 'Basic Website using only HTML and Advances CSS',
@@ -70,6 +87,7 @@ function Work() {
         },
         {
             id:"3",
+            img: password,
             name: 'Random Password Generator',
             technology: 'HTML, CSS, Javascript',
             description: 'Random Password generated through Javascript',
@@ -80,6 +98,7 @@ function Work() {
         },
         {
             id:"5",
+            img: quiz,
             name: 'Javascript Quiz',
             technology: 'CSS, Javascript',
             description: 'Quiz Minigame with DOM elements generated through Javascript',
@@ -90,6 +109,7 @@ function Work() {
         },
         {
             id:"6",
+            img: taskmaster,
             name: 'TaskMaster Pro Edition',
             technology: 'HTML, CSS, Javascript',
             description: 'Task organizer with Modal and data persistence using HTML, CSS and Javascript',
@@ -100,6 +120,7 @@ function Work() {
         },
         {
             id:"7",
+            img: workday,
             name: 'Work Day Scheduler',
             technology: 'HTML, CSS, Javascript',
             description: 'Work Day Agenda with persistence that uses Javascript for time management',
@@ -110,6 +131,7 @@ function Work() {
         },
         {
             id:"8",
+            img: gitdone,
             name: 'Git it Done',
             technology: 'HTML, CSS, Javascript',
             description: 'Basic Github open issue search using an API',
@@ -120,6 +142,7 @@ function Work() {
         },
         {
             id:"9",
+            img: weather,
             name: 'Weather Dashboard',
             technology: 'HTML, CSS, Javascript',
             description: 'Basic Weather dashboard using an API',
@@ -135,7 +158,7 @@ function Work() {
             <article id='gallery' className='space'>
             {projects.map((project, i) => (
                 <div id='project' className='space border' key={project.name}>
-                    <img src={require(`../../images/${project.id}.png`).default}
+                    <img src={project.img}
                         alt={project.name}
                     >
                     </img>
@@ -159,7 +182,8 @@ function Work() {
                 {assignments.map((assignment, i) => (
                 <div id='work' className='space border' key={assignment.name}>
                     <div id='assignment'>
-                    <img id='assignment-img' src={require(`../../images/${assignment.id}.png`).default}
+                    <img id='assignment-img' 
+                    src={assignment.img}
                         alt={assignment.name}
                     ></img>
                     <div id='assignment-info'>
