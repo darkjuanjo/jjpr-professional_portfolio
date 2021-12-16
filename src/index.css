@@ -94,7 +94,16 @@ section, .wrapper {
   transition: all .2s ease-in-out;
 }
 
-a img#github:hover, a img#linkedin:hover {
+#email {
+  background-image: url('../src/assets/images/email.png');
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  border: 0;
+  transition: all .2s ease-in-out;
+}
+
+a img#github:hover, a img#linkedin:hover, a img#email:hover {
   background-color: white;
   animation: 2.1s infinite iconglow;
   box-shadow: 0 0 80px white ;
