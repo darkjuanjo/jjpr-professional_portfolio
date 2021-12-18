@@ -19,6 +19,11 @@ function TheFooter(props) {
             alt=''
             ></img>
         </a>
+        <a  href="tel:+14422797075" target="_blank" rel="noopener noreferrer">
+            <img id='phone'
+            alt=''
+            ></img>
+        </a>
         </section>
        
     );

@@ -1,5 +1,6 @@
-import React from 'react';
-import '../../css/work.css';
+import React, {useState} from 'react';
+import '../../css/work.css'
+import Modal from '../Modal/index';
 
 
 function Work() {
@@ -79,14 +80,25 @@ function Work() {
             deployed: 'https://darkjuanjo.github.io/weather-dashboard/'
         }
     ];
+
+    const [currentImage, setCurrentImage] = useState();
+    const [isModalOpen, setIsModalOpen] =useState(false);
+    const toggleModal = (image) => {
+        setCurrentImage(image);
+        console.log(currentImage);
+        setIsModalOpen(!isModalOpen);
+      }
+    
     return (
         <section id='work-section'>
+            {isModalOpen && <Modal currentImage={currentImage} onClose={toggleModal}/>}
             <h2 className='title space'>Work</h2>
             <article id='gallery' className='space'>
             {projects.map((project, i) => (
                 <div id='project' className='space border' key={project.name}>
                     <img src={require(`../../images/${project.id}.png`).default}
                         alt={project.name}
+                        onClick={()=> toggleModal(project)}
                     >
                     </img>
                     <div id='project-info'>
@@ -111,6 +123,7 @@ function Work() {
                     <div id='assignment'>
                     <img id='assignment-img' src={require(`../../images/${assignment.id}.png`).default}
                         alt={assignment.name}
+                        onClick={()=> toggleModal(assignment)}
                     ></img>
                     <div id='assignment-info'>
                         <ul className='block'>
