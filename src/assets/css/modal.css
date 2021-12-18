@@ -58,8 +58,13 @@ margin-left:0;
 }
 
 @media screen and (max-width: 426px) {
+	.modalContainer {
+		max-width: 80%;
+		margin: 50px auto;
+	}
+
 	div.modalContainer img {
-		width:400px;
+		width:300px;
 		height:200px;
 	}
 
@@ -68,10 +73,10 @@ margin-left:0;
 	}
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 376px) {
 	div.modalContainer img {
-		width:350px;
-		height:150px;
+		width:200px;
+		height:200px;
 	}
 }
 

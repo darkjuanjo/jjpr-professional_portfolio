@@ -53,8 +53,6 @@ function ContactMe() {
             error.textContent = '*Data is required!';
             return 
         }
-
-        console.log(userFormData);
         
         setUserFormData({
             name: '',

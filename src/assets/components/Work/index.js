@@ -85,7 +85,6 @@ function Work() {
     const [isModalOpen, setIsModalOpen] =useState(false);
     const toggleModal = (image) => {
         setCurrentImage(image);
-        console.log(currentImage);
         setIsModalOpen(!isModalOpen);
       }
     
