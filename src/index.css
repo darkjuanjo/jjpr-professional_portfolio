@@ -76,6 +76,15 @@ section, .wrapper {
   font-size:2em;
 }
 
+.line {
+  border-bottom: 3px solid var(--darkblue);
+  width: 80%;
+}
+
+.italics {
+  font-style: italic;
+}
+
 #github {
   background-image: url('../src/assets/images/github.png');
   background-size: contain;

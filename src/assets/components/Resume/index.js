@@ -23,18 +23,39 @@ function Resume() {
             title: 'Professional Progression',
             jobs: [
                 {
+                    job_title:'Senior Product Engineer',
+                    employer: 'Skyworks Solution Inc. 2019-2021',
+                    skills: [ 'Worked with design engineers in defining/developing evaluation test methodologies, evaluation of test plans and test modes.',
+                              'Managed and maintained project schedules that aligned with product introduction and release dates.Engaged and supported local and offshore application teams to resolve product use case questions and problems after production release.',
+                              'Review and analyze lots on hold and provide disposition. Worked with US Product and Test Engineers to improve First Pass Yield and transfer test solutions to Mexicali and offshore.',
+                              'Analyzed customer complaints data and reviewed possible risks, as well as defined testing procedures to catch failures and generate documentation to provide disposition at the assembly line.'
+                            ],
+                    key_elements:['Improved QA First Pass Yield from 40 to 80%.',
+                                 'Created a database of discoloration and ESD failures.']
+                  },
+                {
                   job_title:'Project Engineer I',
                   employer: 'Skyworks Solution Inc. 2017-2019',
-                  skills: [ 'Streamlined workflow in daily data management by developing apps in C# and JMP that automated data conversion and statistical analysis.',
-                            'Helped design and develop various products, including FEMs and PAs. ',
-                            'Increased data processing speed by 80% by developing a C# application that automated the analysis process. ',
-                            'Improved existing processes, procedures, technical enhancements, resource requirements, and stakeholder engagement procedures to align with strategic goals.',
-                            'Wrote protocols, qualification documents, test plans and test reports for quality assurance purposes.',
-                            'Brainstormed with peers and other members of the design team to determine enhancements and product features. ',
-                            'Developed a conversion tool to convert data from “. adt" HP file format to Credence excel format resulting inability to rapidly generate analysis without creating excel macros.',
-                            'Automated more than half of the analysis process using C#, enabling higher efficiency.',
-                          ]
-                }
+                  skills: [ 'Worked with design engineers in defining/developing evaluation test methodologies, evaluation of test plans and test modes.', 
+                            'Managed and maintained project schedules that aligned with product introduction and release dates.', 
+                            'Engaged and supported local and offshore application teams to resolve product use case questions and problems after production release.',
+                          ],
+                key_elements:['Efficiently developed data cleanup tool using C# that improved data analysis speed by 79%.',
+                              'Developed data analysis script JMP to generate daily use reports.']
+                },
+                {
+                    job_title:'Jr. Product Engineer',
+                    employer: 'Skyworks Solution Inc. 2015-2017',
+                    skills: [ 'Worked with design engineers in defining/developing evaluation test methodologies, evaluation of test plans and test modes.', 
+                              'Engaged and supported local and offshore application teams to resolve product use case questions after product and test transfers.', 
+                              'Reviewed parts on hold and dispositioned based on data analysis.'
+                            ],
+                    key_elements:['Improved QA First Pass ●	Developed C# application to convert old data to newer data format styleYield from 40 to 80%.',
+                                  'Created a database of ●	Increased product yield from 70% to 90% and ESD failures.',
+                                  'Automated data analysis with C# apps'
+                                ]
+                  }
+                
             ]
         };
 
@@ -53,7 +74,8 @@ function Resume() {
 
     return (
         <>
-         <p className='space margin download'>Download my resume <span><a href="/doc/JuanJosePazResume.docx" download>Resume</a></span></p>
+         {/* <p className='space margin download'>Download my resume <span><a href="/doc/JuanJosePazResume.docx" download>Resume</a></span></p> */}
+         <p className='space margin download'><span><a href="/doc/JuanJosePazResume.docx" download>Download my resume Resume</a></span></p>
             <section className='justify-center space'>
                 <img alt='' id='me'></img>
             </section>
@@ -66,6 +88,7 @@ function Resume() {
                         <li id='work-li'>{skill}</li>
                     </ul>
                 ))}
+                <p> </p>
                 </div>
             </section>
             <section id='resume' className='space nowrap'>       
@@ -80,6 +103,15 @@ function Resume() {
                                 <li id='work-li'>{skill}</li>
                             </ul>
                         ))}
+                        <h4 className='italics'>{'Key Accomplishments'}</h4>
+                        {job.key_elements.map((element, i) => (
+                            <ul key={i}>
+                                <li id='work-li'>{element}</li>
+                            </ul>
+                        ))}
+                        <br></br>
+                        <p className='line'></p>
+                        <br></br>
                         </>
                     ))}
                     </div>
