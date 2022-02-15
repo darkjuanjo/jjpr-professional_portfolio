@@ -9,8 +9,11 @@ import TheFooter from '../src/assets/components/Footer'
 
 
 function App() {
+  // const [categories] = useState([
+  //   'About Me', 'Work', 'Contact Me', 'Resume'
+  // ]);
   const [categories] = useState([
-    'About Me', 'Work', 'Contact Me', 'Resume'
+    'About Me', 'Work', 'Resume'
   ]);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
@@ -32,7 +35,7 @@ function App() {
            switch (currentCategory) {
              case 'About Me': return <Me/>
              case 'Work': return <Work/>
-             case 'Contact Me': return <ContactMe/>
+            //  case 'Contact Me': return <ContactMe/>
              case 'Resume': return <Resume/>
              default: return 'Pending'
            }

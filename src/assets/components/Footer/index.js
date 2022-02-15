@@ -14,7 +14,7 @@ function TheFooter(props) {
             alt=''
             ></img>
         </a>
-        <a  href="mailto:juanjospazroman@hotmail.com" target="_blank" rel="noopener noreferrer">
+        <a  href="mailto:juanj.paz92@hotmail.com" target="_blank" rel="noopener noreferrer">
             <img id='email'
             alt=''
             ></img>
